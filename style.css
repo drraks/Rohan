@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Kurale", serif;
+    background-color: #8C7B5D;
+}
+.rohan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 35px;
+}
+.departament-welcome{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.welcome{
+    font-weight: 300;
+}
+.departament-links{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+.link-departament{
+    font-weight: 600;
+}
+.left{
+    color: #F8E4DD;
+    padding: 35px;
+}
+.left-text{
+    font-size: 3.5vw;
+}
+.comfort{
+    letter-spacing: 20px;
+}
+.text{
+    font-size: 23px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.order{
+    background-color: #484031;
+    height: 34px;
+    padding: 0 27px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    border-color: transparent;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+.croissants{
+    border-radius: 1000px 0px 0px 1000px;
+}
