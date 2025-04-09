@@ -76,3 +76,83 @@ main{
 .croissants{
     border-radius: 1000px 0px 0px 1000px;
 }
+/* menu */
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 35px;
+
+}
+.menu-header-inner{
+    display: flex;
+    align-items: center;
+}
+.chevron{
+    height: 2vw;
+}
+.menu-text{
+    font-size: 1.9vw;
+    color: #F8E4DD;
+    font-weight: 500;
+}
+
+.bottom{
+    height: 18vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img{
+    border-radius: 30px 30px 0px 0px;
+    height: 18vw;
+}
+.card-inner{
+    background-color: #484031;
+    border-radius: 30px;
+}
+.top{
+    border-radius: 30px;
+}
+.cards-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+.name{
+    font-size: 2.6vw;
+    font-weight: 500;
+    text-align: center;
+    color: #F8E4DD;
+}
+.overview{
+    font-size: 1.8vw;
+    color: #F8E4DD;
+}
+.sell{
+    color: #F8E4DD;
+    text-align: end;
+    font-size: 2vw;
+}
+/* we */
+.we{
+    height: 100vh;
+    background: url(assets/images/confectionery.jpg) center center no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.we-inner{
+    height: 40vw;
+    background-color: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 0px 1000px 1000px 0px;
+}
+.we-text{
+    color: #F8E4DD;
+    font-size: 3.2vw;
+}
