@@ -156,3 +156,69 @@ main{
     color: #F8E4DD;
     font-size: 3.2vw;
 }
+/* stock */
+.stock{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 30px;
+}
+.stock-name{
+    font-size: 3vw;
+    color: #F8E4DD;
+    text-align: center;
+}
+.stock-text{
+    font-size: 2.5vw;
+    font-weight: 300;
+    text-align: center;
+    color: #F8E4DD;
+}
+.stock-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.promotion{
+    border-radius: 50px;
+    height: 35vw;
+}
+.shedule{
+    color: #F8E4DD;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+.shedule-inner{
+    text-align: center;
+}
+.shedule-name{
+    font-size: 2.6vw;
+}
+.shedule-data{
+    font-size: 2.2vw;
+}
+.payment{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    background-color: #484031;
+    height: 10vw;
+}
+.payment-inner{
+    display: flex;
+    align-items: center;
+}
+.payment-img{
+    height: 5.5vw;
+}
+.payment-text{
+    font-size: 1.4vw;
+}
+/* map */
+.map{
+    height: 100vh;
+    padding-top: 20px;
+}
